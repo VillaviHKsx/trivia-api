@@ -1,0 +1,17 @@
+[
+    {
+      "question": "¿Cuál fue el país anfitrión del Mundial 2022?",
+      "options": ["Qatar", "Brasil", "Rusia", "Alemania"],
+      "correctAnswer": "Qatar"
+    },
+    {
+      "question": "¿Qué país ha ganado más mundiales de fútbol?",
+      "options": ["Brasil", "Alemania", "Italia", "Argentina"],
+      "correctAnswer": "Brasil"
+    },
+    {
+      "question": "¿En qué año se celebró el primer Mundial de fútbol?",
+      "options": ["1930", "1942", "1950", "1928"],
+      "correctAnswer": "1930"
+    }
+]

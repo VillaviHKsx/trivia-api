@@ -1,0 +1,63 @@
+/* Estilos generales del reseteo y de base */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f8ff;
+}
+
+.header {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 300px;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #333;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.p-button-success {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.p-button-success:hover {
+  background-color: #0056b3;
+}

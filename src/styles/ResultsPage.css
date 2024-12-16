@@ -1,0 +1,14 @@
+.results-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .results-page h2 {
+    color: #4caf50;
+  }
+  
+  .results-page p {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  

@@ -1,0 +1,123 @@
+/* Estilos para la página principal de trivia */
+.trivia-page {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilos para el encabezado */
+  .header-trivia-page {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header-trivia-page h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .header-trivia-page p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  /* Estilos para el formulario de preguntas */
+  .question-form {
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .question-form h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .question-form ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .question-form ul li {
+    margin: 10px 0;
+  }
+  
+  /* Estilo para botones (usando PrimeReact como base) */
+  .p-button-secondary {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .p-button-secondary:hover {
+    background-color: #388e3c;
+  }
+  
+  .p-button-success {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .p-button-success:hover {
+    background-color: #388e3c;
+  }
+  
+  /* Estilos para el botón de resultados */
+  .results-button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .results-button .p-button-rounded {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #388e3c;
+    color: white;
+    border: none;
+  }
+  
+  .results-button .p-button-rounded:hover {
+    background-color: #388e3c;
+  }
+  
+  /* Respuesta para pantallas pequeñas */
+  @media (max-width: 600px) {
+    .trivia-page {
+      padding: 10px;
+    }
+  
+    .header-trivia-page h1 {
+      font-size: 20px;
+    }
+  
+    .header-trivia-page p {
+      font-size: 14px;
+    }
+  
+    .question-form h2 {
+      font-size: 16px;
+    }
+  
+    .results-button .p-button-rounded {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }  
