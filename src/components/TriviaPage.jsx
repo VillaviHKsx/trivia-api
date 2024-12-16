@@ -34,7 +34,7 @@ const TriviaPage = () => {
     }
 
     // Cargar preguntas desde la API
-    fetch('https://opentdb.com/api.php?amount=3&category=21&difficulty=easy&type=multiple')
+    fetch('https://opentdb.com/api.php?amount=10&category=21&difficulty=easy&type=multiple')
       .then((res) => {
         if (!res.ok) {
           throw new Error(`Error en la API: ${res.status}`);
