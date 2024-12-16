@@ -19,8 +19,7 @@ const ResultsPage = ({ location }) => {
     <div className="results-page">
       <Header />
       <h2>¡Resultados de la Trivia!</h2>
-      <p>
-      s</p>
+      <p></p>
       <LeaderboardTable currentNickname={currentNickname} currentPoints={currentPoints} />
       
       {/* Botón para volver a jugar */}
